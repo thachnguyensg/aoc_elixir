@@ -23,4 +23,12 @@ defmodule AocElixir do
   def day1_part2 do
     Day1.Trebuchet.Part2.sum()
   end
+
+  def day2_part1 do
+    Day2.CubeConundrum.Part1.run()
+  end
+
+  def day2_part2 do
+    Day2.CubeConundrum.Part2.run()
+  end
 end
